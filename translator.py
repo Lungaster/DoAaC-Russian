@@ -46,7 +46,8 @@ class QuickStrings(WBTextFile):
             })
 
         return result
-      if __name__ == "__main__":
+      
+    if __name__ == "__main__":
 
     qs = QuickStrings("source/quick_strings.txt")
 
