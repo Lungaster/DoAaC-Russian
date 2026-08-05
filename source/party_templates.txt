@@ -1,0 +1,90 @@
+partytemplatesfile version 1
+88
+pt_none none 2 0 1 7 -1 -1 -1 -1 -1 -1 
+pt_rescued_prisoners Rescued_Prisoners 2 0 1 7 -1 -1 -1 -1 -1 -1 
+pt_enemy Enemy 2 0 27 7 -1 -1 -1 -1 -1 -1 
+pt_hero_party Hero_Party 2 0 1 7 -1 -1 -1 -1 -1 -1 
+pt_village_defenders Village_Defenders 6 0 1 7 25 10 20 0 219 0 4 0 -1 -1 -1 -1 
+pt_cattle_herd Cattle_Herd 2814749767106627 0 3 7 24 80 120 0 -1 -1 -1 -1 -1 
+pt_looters Looters 2251799813685257 0 2 312 209 5 50 0 -1 -1 -1 -1 -1 
+pt_routier_bandits Routiers 562949957615632 0 33 312 190 1 1 0 195 4 12 0 191 4 12 0 192 2 10 0 193 4 12 0 194 8 24 0 
+pt_flayer_bandits Flayers 562949957615633 0 34 312 196 1 1 0 197 6 18 0 198 4 12 0 199 2 8 0 -1 -1 
+pt_retondeur_bandits Retondeurs 562949957615634 0 35 312 200 2 12 0 201 6 18 0 202 2 8 0 -1 -1 -1 
+pt_tard_venu_bandits Tard-Venus 562949957615635 0 36 312 203 8 24 0 204 6 18 0 205 4 12 0 -1 -1 -1 
+pt_peasant_bandits Rebellious_Peasants 562949957615636 0 37 312 206 8 24 0 208 4 12 0 207 1 6 0 -1 -1 -1 
+pt_deserters Deserters 844424934326293 0 24 312 -1 -1 -1 -1 -1 -1 
+pt_troublesome_bandits Troublesome_Bandits 2533274790658057 0 2 312 210 14 55 0 -1 -1 -1 -1 -1 
+pt_bandits_awaiting_ransom Bandits_Awaiting_Ransom 2533274790789129 0 3 312 210 24 58 0 221 1 1 1 -1 -1 -1 -1 
+pt_leaded_looters Band_of_robbers 2251799813947401 0 3 312 1743 1 1 0 209 3 3 0 -1 -1 -1 -1 
+pt_looter_lair Kidnappers'_Hideout 562949955536084 0 3 312 209 15 25 0 -1 -1 -1 -1 -1 
+pt_routier_lair Routier_Stronghold 562949953438773 0 3 312 190 1 1 0 195 4 12 0 191 2 12 0 192 1 4 0 193 2 6 0 194 4 12 0 
+pt_flayer_lair Flayer_Camp 562949953438754 0 3 312 196 1 1 0 197 4 12 0 198 2 8 0 199 2 8 0 -1 -1 
+pt_retondeur_lair Retondeur_Camp 562949953438754 0 3 312 200 2 8 0 201 4 12 0 202 2 8 0 -1 -1 -1 
+pt_tard_venu_lair Tard-Venu_Occupied_Village 562949953438742 0 3 312 203 4 20 0 204 4 12 0 205 2 8 0 -1 -1 -1 
+pt_angry_pleb_lair Rebellious_Village 562949953438742 0 3 312 206 4 20 0 208 4 12 0 207 4 12 0 -1 -1 -1 
+pt_bandit_lair_templates_end {!}bandit_lair_templates_end 562949953422345 0 2 312 209 15 50 0 -1 -1 -1 -1 -1 
+pt_routed_warriors Routed_Enemies 3 0 1 137 -1 -1 -1 -1 -1 -1 
+pt_manhunters Manhunters 2 0 23 137 212 9 40 0 -1 -1 -1 -1 -1 
+pt_kidnapped_girl Kidnapped_Girl 262154 0 3 7 221 1 1 0 -1 -1 -1 -1 -1 
+pt_merchant_caravan Merchant_Caravan 5629499534606402 0 1 11 220 1 1 0 28 5 25 0 -1 -1 -1 -1 
+pt_spy_partners Unremarkable_Travellers 2814749767434241 0 3 7 1670 1 1 0 28 5 11 0 -1 -1 -1 -1 
+pt_runaway_serfs Runaway_Serfs 2251799814012934 0 3 7 25 6 7 0 219 3 3 0 -1 -1 -1 -1 
+pt_spy Ordinary_Townsman 1125899907170305 0 3 7 1669 1 1 0 -1 -1 -1 -1 -1 
+pt_sacrificed_messenger Sacrificed_Messenger 844424930459650 0 3 7 -1 -1 -1 -1 -1 -1 
+pt_village_farmers Village_Farmers 67108870 0 4 7 25 5 10 0 219 3 8 0 -1 -1 -1 -1 
+pt_forager_party Foraging_Party 1407374887747586 0 1 7 -1 -1 -1 -1 -1 -1 
+pt_scout_party Scouts 281474980904962 0 1 312 -1 -1 -1 -1 -1 -1 
+pt_patrol_party Patrol 562949957615632 0 1 137 -1 -1 -1 -1 -1 -1 
+pt_messenger_party Messenger 4194309 0 1 7 -1 -1 -1 -1 -1 -1 
+pt_raider_party Raiders 2251799817879554 0 1 312 -1 -1 -1 -1 -1 -1 
+pt_raider_captives Raider_Captives 0 0 1 0 219 2 15 1 25 2 10 1 -1 -1 -1 -1 
+pt_kingdom_caravan_party Caravan 7036874421960770 0 1 7 220 1 1 0 28 12 40 0 -1 -1 -1 -1 
+pt_prisoner_train_party Prisoner_Train 1407374887747650 0 1 7 -1 -1 -1 -1 -1 -1 
+pt_default_prisoners Default_Prisoners 3 0 1 0 208 3 8 1 206 3 8 1 207 3 8 1 -1 -1 -1 
+pt_kingdom_hero_party War_Party 4259844 0 1 137 -1 -1 -1 -1 -1 -1 
+pt_center_reinforcements Reinforcements 1125899911036937 0 1 11 -1 -1 -1 -1 -1 -1 
+pt_kingdom_1_reinforcements_a kingdom_1_reinforcements_a 0 0 1 0 71 1 5 0 72 1 3 0 73 1 3 0 74 1 4 0 69 1 6 0 -1 
+pt_kingdom_1_reinforcements_b kingdom_1_reinforcements_b 0 0 1 0 76 1 3 0 80 2 7 0 83 1 4 0 78 1 3 0 74 1 3 0 73 1 2 0 
+pt_kingdom_1_reinforcements_c kingdom_1_reinforcements_c 0 0 1 0 55 1 2 0 77 1 3 0 80 2 5 0 84 1 3 0 81 1 2 0 85 1 1 0 
+pt_kingdom_1_reinforcements_d kingdom_1_reinforcements_d 0 0 1 0 86 1 4 0 89 2 6 0 87 1 4 0 90 2 6 0 88 1 3 0 91 1 3 0 
+pt_kingdom_1_reinforcements_e kingdom_1_reinforcements_e 0 0 1 0 92 1 1 0 93 1 1 0 -1 -1 -1 -1 
+pt_kingdom_2_reinforcements_a kingdom_2_reinforcements_a 0 0 1 0 102 1 5 0 103 1 3 0 104 1 3 0 105 1 4 0 98 1 6 0 -1 
+pt_kingdom_2_reinforcements_b kingdom_2_reinforcements_b 0 0 1 0 101 1 3 0 111 2 7 0 107 1 4 0 106 1 3 0 108 1 3 0 104 1 2 0 
+pt_kingdom_2_reinforcements_c kingdom_2_reinforcements_c 0 0 1 0 110 1 2 0 111 1 3 0 107 2 5 0 108 1 3 0 112 1 2 0 109 1 1 0 
+pt_kingdom_2_reinforcements_d kingdom_2_reinforcements_d 0 0 1 0 113 1 4 0 116 2 6 0 114 1 4 0 117 2 6 0 115 1 3 0 -1 
+pt_kingdom_2_reinforcements_e kingdom_2_reinforcements_e 0 0 1 0 119 1 1 0 120 1 1 0 -1 -1 -1 -1 
+pt_kingdom_3_reinforcements_a kingdom_3_reinforcements_a 0 0 1 0 128 1 5 0 129 1 5 0 131 1 4 0 125 1 3 0 126 1 3 0 -1 
+pt_kingdom_3_reinforcements_b kingdom_3_reinforcements_b 0 0 1 0 133 1 3 0 138 1 6 0 143 1 4 0 140 1 3 0 134 1 3 0 136 1 2 0 
+pt_kingdom_3_reinforcements_c kingdom_3_reinforcements_c 0 0 1 0 141 1 2 0 135 1 3 0 137 1 4 0 145 1 4 0 142 1 1 0 -1 
+pt_kingdom_3_reinforcements_d kingdom_3_reinforcements_d 0 0 1 0 146 1 4 0 149 2 6 0 147 1 3 0 150 1 3 0 151 1 3 0 -1 
+pt_kingdom_3_reinforcements_e kingdom_3_reinforcements_e 0 0 1 0 152 1 1 0 153 1 1 0 -1 -1 -1 -1 
+pt_kingdom_4_reinforcements_a kingdom_4_reinforcements_a 0 0 1 0 161 1 5 0 163 1 5 0 164 1 4 0 158 1 6 0 -1 -1 
+pt_kingdom_4_reinforcements_b kingdom_4_reinforcements_b 0 0 1 0 165 1 3 0 172 2 7 0 175 1 4 0 173 1 3 0 170 1 3 0 165 1 2 0 
+pt_kingdom_4_reinforcements_c kingdom_4_reinforcements_c 0 0 1 0 167 1 3 0 169 1 2 0 175 2 6 0 176 1 4 0 173 1 4 0 177 1 1 0 
+pt_kingdom_4_reinforcements_d kingdom_4_reinforcements_d 0 0 1 0 178 1 4 0 182 2 6 0 183 1 3 0 179 1 3 0 180 1 3 0 -1 
+pt_kingdom_4_reinforcements_e kingdom_4_reinforcements_e 0 0 1 0 184 1 1 0 185 1 1 0 -1 -1 -1 -1 
+pt_dplmc_spouse Your_spouse 71303179 0 3 7 -1 -1 -1 -1 -1 -1 
+pt_dplmc_gift_caravan Your_Caravan 7036874421960770 0 1 11 220 1 1 0 28 5 25 0 -1 -1 -1 -1 
+pt_dplmc_recruiter Recruiter 4194309 0 3 7 1752 1 1 0 -1 -1 -1 -1 -1 
+pt_routier_hideout Routier_Reinforcements 0 0 1 0 190 1 1 0 195 1 6 0 191 1 4 0 192 1 4 0 193 1 4 0 194 1 4 0 
+pt_flayer_hideout Flayer_Reinforcements 0 0 1 0 196 1 1 0 197 1 4 0 198 1 4 0 199 1 6 0 -1 -1 
+pt_retondeur_hideout Retondeur_Reinforcements 0 0 1 0 200 1 4 0 201 1 4 0 202 1 6 0 -1 -1 -1 
+pt_tard_venu_hideout Tard-Venu_Reinforcements 0 0 1 0 203 1 4 0 204 1 4 0 205 1 6 0 -1 -1 -1 
+pt_angry_pleb_hideout Rebel_Reinforcements 0 0 1 0 206 1 6 0 208 1 6 0 207 1 6 0 -1 -1 -1 
+pt_inquisition_army Inquisition_Army 562949953421328 0 1 312 1648 1 1 0 190 10 15 0 51 20 25 0 52 15 20 0 54 15 20 0 55 10 15 0 
+pt_mercenary_garrison Band_of_Mercenaries 562949953421328 0 1 312 30 1 5 0 32 10 20 0 34 10 15 0 35 5 10 0 29 10 15 0 195 10 15 0 
+pt_mercenary_company_infantry Mercenary_Company_Infantry 0 0 1 0 1975 2 6 0 1978 2 4 0 1981 1 3 0 1984 1 2 0 1987 1 2 0 -1 
+pt_mercenary_company_ranged Mercenary_Company_Ranged 0 0 1 0 1990 2 6 0 1993 2 4 0 1999 1 2 0 1996 1 2 0 -1 -1 
+pt_mercenary_company_cavalry Mercenary_Company_Cavalry 0 0 1 0 2002 2 4 0 2005 1 3 0 -1 -1 -1 -1 
+pt_mercenary_company_noble_infantry Mercenary_Company_Noble_Infantry 0 0 1 0 2008 1 3 0 2011 1 2 0 2014 1 1 0 -1 -1 -1 
+pt_mercenary_company_noble_cavalry Mercenary_Company_Noble_Cavalry 0 0 1 0 2017 1 3 0 2020 1 2 0 2023 1 1 0 -1 -1 -1 
+pt_mercenary_company_italian_infantry Mercenary_Company_Italian_Infantry 0 0 1 0 51 2 6 0 52 2 4 0 53 1 2 0 -1 -1 -1 
+pt_mercenary_company_italian_ranged Mercenary_Company_Italian_Ranged 0 0 1 0 54 2 6 0 55 2 4 0 56 1 3 0 -1 -1 -1 
+pt_mercenary_company_italian_cavalry Mercenary_Company_Italian_Knight 0 0 1 0 57 1 3 0 -1 -1 -1 -1 -1 
+pt_mercenary_company_flemish_infantry Mercenary_Company_Flemish_Infantry 0 0 1 0 44 2 6 0 45 2 4 0 47 2 4 0 46 1 2 0 48 1 2 0 -1 
+pt_mercenary_company_flemish_ranged Mercenary_Company_Flemish_Ranged 0 0 1 0 39 1 5 0 40 1 4 0 41 1 3 0 42 1 1 0 43 1 1 0 -1 
+pt_mercenary_company_german_knight Mercenary_Company_German_Foot-Knight 0 0 1 0 49 1 3 0 -1 -1 -1 -1 -1 
+pt_mercenary_company_german_cavalry Mercenary_Company_German_Knight 0 0 1 0 49 1 3 0 -1 -1 -1 -1 -1 
+pt_mercenary_company_scottish_infantry Mercenary_Company_Scottish_Infantry 0 0 1 0 61 2 6 0 62 2 4 0 63 2 4 0 -1 -1 -1 
+pt_mercenary_company_scottish_noble_infantry Mercenary_Company_Scottish_Noble_Infantry 0 0 1 0 64 1 3 0 65 1 2 0 66 1 1 0 -1 -1 -1 
+pt_mercenary_company_scottish_ranged Mercenary_Company_Scottish_Ranged 0 0 1 0 58 2 6 0 59 2 4 0 60 1 3 0 -1 -1 -1 
