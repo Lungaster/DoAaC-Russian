@@ -1,64 +1,43 @@
-from pathlib import Path
+from parser import WarbandParser
+from writer import Writer
+from validator import Validator
 
-class WBTextFile:
-    def __init__(self, filename):
-        self.filename = Path(filename)
-        self.lines = []
 
-    def load(self):
-        with open(self.filename, "r", encoding="utf-8", errors="ignore") as f:
-            self.lines = f.readlines()
+def translate(text: str) -> str:
+    """
+    Пока заглушка.
+    Здесь позже будет OpenAI/Gemini/Ollama.
+    """
+    return text
 
-    def save(self, filename=None):
-        target = filename or self.filename
 
-        with open(target, "w", encoding="utf-8", newline="\n") as f:
-            f.writelines(self.lines)
+def main():
 
-    def stats(self):
-        print(f"Файл: {self.filename.name}")
-        print(f"Строк: {len(self.lines)}")
-class QuickStrings(WBTextFile):
+    parser = WarbandParser("source/quick_strings.txt")
 
-    def parse(self):
+    entries = parser.parse()
 
-        result = []
+    print(f"Загружено {len(entries)} строк")
 
-        for number, line in enumerate(self.lines):
+    translated = 0
 
-            line = line.rstrip()
+    for entry in entries:
 
-            if not line:
-                continue
+        new_text = translate(entry.original)
 
-            parts = line.split(" ", 1)
+        Validator.validate(entry.original, new_text)
 
-            if len(parts) != 2:
-                continue
+        entry.translated = new_text
 
-            ident = parts[0]
-            text = parts[1]
+        translated += 1
 
-            result.append({
-                "line": number,
-                "id": ident,
-                "text": text
-            })
+    Writer.save(
+        "translated/quick_strings.txt",
+        entries
+    )
 
-               return result
+    print(f"Готово. Обработано {translated} строк.")
 
 
 if __name__ == "__main__":
-
-    qs = QuickStrings("source/quick_strings.txt")
-
-    qs.load()
-
-    data = qs.parse()
-
-    print("Найдено строк:", len(data))
-
-    print()
-
-    for row in data[:20]:
-        print(row)
+    main()
