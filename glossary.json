@@ -1,0 +1,22 @@
+{
+    "Lord": "Лорд",
+    "Lady": "Леди",
+    "Marshal": "Маршал",
+    "Companion": "Спутник",
+    "Village": "Деревня",
+    "Town": "Город",
+    "Castle": "Замок",
+    "Kingdom": "Королевство",
+    "Faction": "Фракция",
+    "Mercenary": "Наёмник",
+    "Renown": "Слава",
+    "Honour": "Честь",
+    "Right to Rule": "Право на престол",
+    "Prisoner": "Пленник",
+    "Peasant": "Крестьянин",
+    "Horseman": "Всадник",
+    "Infantry": "Пехота",
+    "Archer": "Лучник",
+    "Crossbowman": "Арбалетчик",
+    "Knight": "Рыцарь"
+}
