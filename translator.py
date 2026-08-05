@@ -1,33 +1,40 @@
 from parser import WarbandParser
 from writer import Writer
 from validator import Validator
-
-
-def translate(text: str) -> str:
-    """
-    Пока заглушка.
-    Здесь позже будет OpenAI/Gemini/Ollama.
-    """
-    return text
+from translator_engine import TranslatorEngine
+from progress import Progress
 
 
 def main():
 
-    parser = WarbandParser("source/quick_strings.txt")
+    engine = TranslatorEngine()
+
+    progress = Progress()
+
+    parser = WarbandParser(
+        "source/quick_strings.txt"
+    )
 
     entries = parser.parse()
 
-    print(f"Загружено {len(entries)} строк")
+    total = len(entries)
+
+    print(f"Найдено {total} строк")
 
     translated = 0
 
     for entry in entries:
 
-        new_text = translate(entry.original)
+        result = engine.translate(
+            entry.original
+        )
 
-        Validator.validate(entry.original, new_text)
+        Validator.validate(
+            entry.original,
+            result
+        )
 
-        entry.translated = new_text
+        entry.translated = result
 
         translated += 1
 
@@ -36,7 +43,13 @@ def main():
         entries
     )
 
-    print(f"Готово. Обработано {translated} строк.")
+    progress.data["translated"] = translated
+
+    progress.save()
+
+    print(
+        f"Переведено {translated}/{total}"
+    )
 
 
 if __name__ == "__main__":
